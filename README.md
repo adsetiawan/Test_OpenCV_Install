@@ -1,4 +1,4 @@
-# Pengujian Instalasi OpenCV
+# <font color="blue">Pengujian Instalasi OpenCV</font>
 
 Python script ini dimaksudkan untuk melakukan pengujian instalasi OpenCV menggunakan Miniconda. Script ini merupakan bagian dari buku **Computer Vision dan Pengolahan Citra Digital Dengan OpenCV: Dari Dasar Hingga Lanjutan Disertai Studi Kasus**. 
 
