@@ -5,7 +5,9 @@ Python script ini dimaksudkan untuk melakukan pengujian instalasi OpenCV menggun
 # Menginstall Library dan Paket CV
 Untuk melkakukan instalasi library dan paket pada environment di Miniconda dapat dilakukan dengan perintah berikut:
 
-$ conda install -c conda-forge opencv numpy matplotlib pillow scikit-image jupyter imutils ffmpeg imageio
+```bash
+conda install -c conda-forge opencv numpy matplotlib pillow scikit-image jupyter imutils ffmpeg imageio
+```
 
 # Sintaks Pengujian
 
