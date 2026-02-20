@@ -1,18 +1,13 @@
 # Pengujian Instalasi OpenCV
 
-Python script ini dimaksudkan untuk melakukan pengujian instalasi OpenCV menggunakan Miniconda. Script ini merupakan bagian dari buku **Computer Vision dan Pengolahan Citra Digital Dengan OpenCV**. Untuk mel;akukan instalasi library dan paket pada environment di Miniconda dapat dilakukan dengan perintah berikut:
+Python script ini dimaksudkan untuk melakukan pengujian instalasi OpenCV menggunakan Miniconda. Script ini merupakan bagian dari buku **Computer Vision dan Pengolahan Citra Digital Dengan OpenCV: Dari Dasar Hingga Lanjutan Disertai Studi Kasus**. 
 
-# Mengkloning repositori
-git clone https://github.com
+# Menginstall Library dan Paket CV
+Untuk melkakukan instalasi library dan paket pada environment di Miniconda dapat dilakukan dengan perintah berikut:
 
-# Masuk ke direktori
-cd proyek-anda
+$ conda install -c conda-forge opencv numpy matplotlib pillow scikit-image jupyter imutils ffmpeg imageio
 
-# Menginstal dependensi
-npm install
-
-
-conda install -c conda-forge opencv numpy matplotlib pillow scikit-image jupyter imutils ffmpeg imageio
+# Sintaks Pengujian
 
 1) Tes instalasi tanpa gambar (pasti jalan)
 2) Tes dengan gambar sendiri
