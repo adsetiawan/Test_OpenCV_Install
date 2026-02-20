@@ -10,6 +10,17 @@ conda install -c conda-forge opencv numpy matplotlib pillow scikit-image jupyter
 ```
 
 # Sintaks Pengujian
+Pengujian dapat dilakukan menggunakan script test_opencv_install.py dengan perintah sebagai berikut:
+
+```bash
+python test_opencv_install.py nama_citra
+```
+
+Contoh
+
+```bash
+python test_opencv_install.py lenna.png
+```
 
 1) Tes instalasi tanpa gambar (pasti jalan)
 2) Tes dengan gambar sendiri
