@@ -9,7 +9,8 @@ Untuk melkakukan instalasi library dan paket pada environment di Miniconda dapat
 conda install -c conda-forge opencv numpy matplotlib pillow scikit-image jupyter imutils ffmpeg imageio
 ```
 
-# Sintaks Pengujian
+# Sintaks Pengujian Dasar
+## Penampilan dan Pemrosesan Citra Dasar Menampilkan Citra dan Pemrosesan
 Pengujian dapat dilakukan menggunakan script test_opencv_install.py dengan perintah sebagai berikut:
 
 ```bash
@@ -21,11 +22,12 @@ Contoh
 ```bash
 python test_opencv_install.py lenna.png
 ```
-Pengujian webcam dapat menggunakan test_webcam.py
+## Pengujian webcam dapat menggunakan test_webcam.py
 
 ```bash
 python test_webcam.py
 ```
+# Sintaks Pengujian Lanjut
 Pengujian yang paling lengkap dapat menggunakan opencv_install_test.py. Berikut ini adalah sintaks untuk menjalankan pengujian menggunakan script ini.
 
 ## Tes instalasi tanpa gambar (pasti jalan)
