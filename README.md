@@ -28,19 +28,19 @@ python test_webcam.py
 ```
 Pengujian yang paling lengkap dapat menggunakan opencv_install_test.py. Berikut ini adalah sintaks untuk menjalankan pengujian menggunakan script ini.
 
-1) Tes instalasi tanpa gambar (pasti jalan)
+## Tes instalasi tanpa gambar (pasti jalan)
 
 ```bash
 python opencv_install_test.py --show
 ```
 
-2) Tes dengan gambar sendiri
+## Tes dengan gambar sendiri
 
 ```bash
 python opencv_install_test.py contoh.jpg --show
 ```
 
-3) Tes webcam (realtime 10 detik)
+## Tes webcam (realtime 10 detik)
 
 ```bash
 python opencv_install_test.py --webcam --show
@@ -56,14 +56,14 @@ Beberapa laptop memiliki:
 - kamera virtual = index 1
 - kamera USB = index 2
 
-4) Mode “headless” (tanpa tampil) tapi tetap simpan output
+## Mode “headless” (tanpa tampil) tapi tetap simpan output
 
 ```bash
 python opencv_install_test.py
 python opencv_install_test.py --webcam --duration 5
 ```
 
-5) Tidak mau simpan output
+## Tidak mau simpan output
 
 ```bash
 python opencv_install_test.py --show --no-save
