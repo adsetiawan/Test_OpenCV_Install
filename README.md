@@ -93,14 +93,15 @@ Beberapa laptop memiliki:
 - kamera USB = index 2
 
 ### Mode “headless” (tanpa tampil) tapi tetap simpan output
-
+Perintah yang dapat diberikan adalah sebagai berikut:
 ```bash
 python opencv_install_test.py
 python opencv_install_test.py --webcam --duration 5
 ```
+Perintah pertama melakukan pemrosesan citra sintetis tanpa menampilkan jendela hasil proses, tapi file sintesis yang diproses akan disimpan pada frolder output_test/. Perintah kedua juga sama, yaitu membuka webcam ranpa menampilkan jendela tangkapan webcam dengan durasi 5 detik dan hasil proses disimpan di folder yang sama.
 
 ### Tidak mau simpan output
-
+Perintah berikut ini menampilkan citra sintetis tanpa harus menyimpan hasil prosesnya.
 ```bash
 python opencv_install_test.py --show --no-save
 ```
